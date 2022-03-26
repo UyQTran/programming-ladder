@@ -1,11 +1,14 @@
 {
-  "name": "programming-ladder",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "graphql-boilerplate",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "prisma": "prisma"
   },
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "graphql-yoga": "1.18.3",
+    "prisma-client-lib": "1.34.12"
+  },
+  "devDependencies": {
+    "prisma": "1.34.12"
+  }
 }
